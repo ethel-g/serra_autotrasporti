@@ -10,10 +10,6 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
-
-/*! TODO: cancellare H3
-*/ 
-
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -2124,8 +2120,8 @@ progress {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
-  
-}.form-label {
+}
+.form-label {
   margin-bottom: 0.5rem;
 }
 
@@ -10857,7 +10853,7 @@ p {
 .page-section h2.section-heading, .page-section .section-heading.h2 {
   font-size: 2.5rem;
   margin-top: 0;
-  margin-bottom: 4rem;
+  margin-bottom: 1rem;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
   font-size: 1rem;
@@ -11250,7 +11246,24 @@ header.masthead .masthead-heading {
   .timeline > li.timeline-inverted > .timeline-panel {
     padding: 0 100px 20px 20px;
   }
+}
+.team-member {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.team-member img {
+  width: 14rem;
+  height: 14rem;
+  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team-member h4, .team-member .h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
 
+.img-brand {
+  height: 2.75rem;
+}
 
 section#contact {
   background-color: #212529;
@@ -11305,7 +11318,6 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-weight: 700;
   color: #ced4da;
 }
-
 
 .footer {
   text-align: center;
